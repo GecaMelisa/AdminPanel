@@ -4,7 +4,7 @@ ini_set('display_errors', 1);
 
 require_once __DIR__ . '/BaseDao.class.php';
 
-class adminDao extends BaseDao
+class AdminDao extends BaseDao
 {
     public function __construct()
     {
